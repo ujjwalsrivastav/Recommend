@@ -1,0 +1,399 @@
+/* Reset some default styles */
+*{
+  margin: 0;
+  padding:0;
+  text-decoration: none;
+}
+body, figure, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set font styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  h6 {
+    margin: 6px;
+    font-size: 1rem;
+}
+button span{
+  color: #000000;
+}
+  /* Style the hero section */
+  #hero {
+    background-color: #0e0c0c;
+    padding: 80px;
+    text-align: center;
+  }
+ 
+  
+  #hero h1 {
+    color: #A6A57A;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    color: #A6A57A;
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 16px 32px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 4px;
+  }
+   /* Style the product section */
+  .explore{
+    padding-bottom: 5rem;
+    background:rgba(40,57,101,.9); ;
+  }
+  .explore h1{
+    margin-top: 33px;
+    padding: 19px;
+  }
+
+  /* Style the features section */
+  #features {
+    padding: 60px;
+    background-color: #fff;
+  }
+  
+  #features h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  #features ul {
+    list-style-type: disc;
+    margin-left: 40px;
+  }
+  
+  #features li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the testimonials section */
+  #testimonials {
+    padding: 60px;
+    background-color: #f8f8f8;
+  }
+  
+  .testimonial {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-author {
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  /* Style the footer */
+  footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    margin-bottom: -84px;
+  }
+  
+  /* Media query for mobile responsiveness */
+  @media screen and (max-width: 768px) {
+    #hero {
+      padding: 60px;
+    }
+  
+    #hero h1 {
+      font-size: 28px;
+    }
+  
+    #hero p {
+      font-size: 16px;
+    }
+  
+    .cta-button {
+      font-size: 16px;
+      padding: 12px 24px;
+    }
+  
+    #features {
+      padding: 40px;
+    }
+  
+    #features h2 {
+      font-size: 20px;
+    }
+  
+    #features ul {
+      margin-left: 20px;
+    }
+  
+    #features li {
+      font-size: 14px;
+    }
+  
+    #testimonials {
+      padding: 40px;
+    }
+  
+    .testimonial img {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .testimonial p {
+      font-size: 14px;
+    }
+  
+    .testimonial-author {
+      font-size: 12px;
+    }
+  
+    footer {
+      padding: 16px;
+    }
+  }
+  @import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+  @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+  figure.snip1390 {
+    font-family: 'Roboto', Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 230px;
+    max-width: 315px;
+    width: 100%;
+    color: #000000;
+    text-align: center;
+    font-size: 16px;
+    background-color: #2C3447;
+    padding: 30px;
+    background-image: linear-gradient(-25deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  figure.snip1390 *,
+  figure.snip1390 *:before,
+  figure.snip1390 *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+  }
+  figure.snip1390 figcaption {
+    width: 100%;
+  }
+  figure.snip1390 h2,
+  figure.snip1390 h4,
+  figure.snip1390 blockquote {
+    margin: 0;
+  }
+  figure.snip1390 h2,
+  figure.snip1390 h4 {
+    font-weight: 300;
+  }
+  figure.snip1390 h2 {
+    color: #ffffff;
+  }
+  figure.snip1390 h4 {
+    color: #a6a6a6;
+  }
+  figure.snip1390 blockquote {
+    font-size: 1em;
+    padding: 45px 20px 40px 50px;
+    margin-top: 30px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: inset -1.4px -1.4px 2px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    position: relative;
+  }
+  figure.snip1390 blockquote:before {
+    font-family: 'FontAwesome';
+    content: "\201C";
+    position: absolute;
+    font-size: 70px;
+    opacity: 0.25;
+    font-style: normal;
+    top: 0px;
+    left: 20px;
+  }
+  figure.snip1390 .profile {
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.4);
+    margin-bottom: 10px;
+    border: solid 5px #A6A57A;
+  }
+/* Styles for the about section */
+#about-section {
+    background-color: #f9f9f9; /* Set background color */
+    padding: 60px 0; /* Add padding to the top and bottom */
+}
+
+.about-container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center align content vertically */
+    max-width: 1200px; /* Set max width for container */
+    margin: 0 auto; /* Center align container horizontally */
+    padding: 0 20px; /* Add padding to the left and right */
+}
+
+.about-image {
+    flex: 1; /* Set flex property to take up 1/3 of container width */
+}
+
+.about-image img {
+    max-width: 90%; /* Set image width to 100% of parent element */
+    height: auto; /* Maintain aspect ratio */
+     /* Add border radius for rounded image */
+}
+
+.about-content {
+    flex: 2; /* Set flex property to take up 2/3 of container width */
+}
+
+.about-content h2 {
+    font-size: 28px; /* Set font size for heading */
+    color: #333; /* Set text color */
+}
+
+.about-content p {
+    font-size: 16px; /* Set font size for paragraphs */
+    color: #777; /* Set text color */
+    line-height: 1.6; /* Set line height for paragraphs */
+}
+/* Styles for the personalization section */
+#personalization-section {
+    background-color: #f0f0f0; /* Set background color */
+    padding: 60px 0; /* Add padding to the top and bottom */
+}
+
+.personalization-container {
+    max-width: 800px; /* Set max width for container */
+    margin: 0 auto; /* Center align container horizontally */
+    padding: 0 20px; /* Add padding to the left and right */
+}
+
+.personalization-container h2 {
+    font-size: 28px; /* Set font size for heading */
+    color: #333; /* Set text color */
+}
+
+#personalization-form {
+    margin-top: 20px; /* Add margin to the top of form */
+}
+
+label {
+    display: block; /* Set labels as block elements for spacing */
+    margin-bottom: 10px; /* Add margin to the bottom of labels */
+    font-weight: bold; /* Set font weight for labels */
+}
+
+input[type="text"], select {
+    width: 100%; /* Set input and select width to 100% */
+    padding: 10px; /* Add padding to input and select */
+    margin-bottom: 20px; /* Add margin to the bottom of input and select */
+    border: 1px solid #ccc; /* Add border to input and select */
+    border-radius: 5px; /* Add border radius to input and select */
+}
+
+button[type="submit"] {
+    background-color: #007bff; /* Set background color for submit button */
+    color: #fff; /* Set text color for submit button */
+    padding: 10px 20px; /* Add padding to submit button */
+    border: none; /* Remove border from submit button */
+    border-radius: 5px; /* Add border radius to submit button */
+    cursor: pointer; /* Set cursor to pointer on hover */
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
+.r1{
+  font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            padding: 20px;
+}
+.r1 h1{
+  color: #007bff;
+}
+.r1 form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+}
+.r1 label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.r1 
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.r1 textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.r1 input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.r1 input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+/* header img {
+  border: 1px solid #ddd;
+    border-radius: 40%;
+    padding: 5px;
+    width: 40px;
+}
+
+header img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+header .image a{
+font-size: 13px;
+} */
